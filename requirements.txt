@@ -1,0 +1,32 @@
+transformers
+alignment
+ninja
+trl
+torch==2.6.0 
+torchvision==0.21.0 
+torchaudio==2.6.0
+sentencepiece
+accelerate
+pandas
+matplotlib
+scikit-learn
+wandb
+datasets
+numpy
+deepspeed
+flask
+flask_cors
+daal
+fire
+tokenizers
+psutil 
+ninja 
+packaging
+matplotlib
+numpy
+
+# uv pip install -r requirements.txt --torch-backend=auto
+
+# uv pip install flash-attn==2.8.2 --no-build-isolation
+
+# conda install -c nvidia cuda-toolkit=12.6 cuda-nvcc=12.6 -y
